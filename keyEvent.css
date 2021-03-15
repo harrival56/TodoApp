@@ -25,7 +25,6 @@ li button {
 
 .completed {
     text-decoration-line: line-through;
-    -moz-text-decoration-line: line-through;
     color: lawngreen;
 }
 
