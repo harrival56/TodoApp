@@ -1,0 +1,35 @@
+#todoId {
+    background-color: brown;
+    padding: 10px;
+    border: black double 5px;
+    width: 40%;
+}
+
+#myList {
+    color: orange;
+    text-align: center;
+    padding-top: 1px;
+    margin-top: 0%;
+}
+
+.listStyle {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 150%;
+}
+
+li button {
+    margin: 10px;
+    background-color: blue;
+    color: white;
+}
+
+.completed {
+    text-decoration-line: line-through;
+    -moz-text-decoration-line: line-through;
+    color: lawngreen;
+}
+
+#removeList {
+    background-color:red;
+    color: white;
+}
