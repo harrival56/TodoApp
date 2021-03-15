@@ -12,6 +12,7 @@ form.addEventListener('submit', function(event) {
     ol.appendChild(li)
     li.appendChild(button)
     input.value = ''
+    localStorage.setItem('myTodoList', JSON.stringify(ol))
 })
 
 ol.addEventListener('click', function(e){
